@@ -1,11 +1,15 @@
 # qb-cryptostick
 By Jeeze
 
-Deleted all the unneccsary code for the crypto-stick and adopted it for renewed qb-phone
+Deleted all the unneccsary code for the crypto and left just the event for the cryptostick.  
+Changed event to give you rewnewed phone crypto.  
+
+
+to-do  change event to work with qb-target and make it go off of a laptop,  or maybe an atm.
 
 
 # Dependencies
-- [qb-phone](https://github.com/qbcore-framework/qb-phone)
+- [qb-phone](https://github.com/Renewed-Scripts/qb-phone)  Renewed qb-phone
 - [mhacking](https://github.com/qbcore-framework/mhacking)
 
 # License
