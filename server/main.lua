@@ -41,8 +41,8 @@ RegisterServerEvent('qb-cryptostick:server:ExchangeSuccess', function(LuckChance
         end
 
         Player.Functions.RemoveItem("cryptostick", 1)
-        exports['qb-phone']:AddCrypto(src, "shung", Amount)
-        TriggerClientEvent('QBCore:Notify', src,  "You have exchanged the Cryptostick for some Shungite.", "success", 5000)
+        exports['qb-phone']:AddCrypto(src, "shung", Amount) -- change to crypto you have set up in your renewed phone
+        TriggerClientEvent('QBCore:Notify', src,  "You have exchanged the Cryptostick for some Shungite.", "success", 5000) -- change to crypto you have set up in your renewed phone
         TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items["cryptostick"], "remove")
         -- TriggerClientEvent('qb-phone:client:AddTransaction', src, Player, {},  Lang:t('credit.there_are_amount_credited',{amount = Amount}), "Credit")
     end
